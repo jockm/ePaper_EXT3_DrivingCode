@@ -1,14 +1,14 @@
 /* 
- *  This example code is for sub 5 inch with iTC driver
- *	including 1.54", 2.13", 2.66", 2.71", 2.87", 3.70", 4.20" and 4.37"
- *	of Aurora or Spectra EPD made by Pervasive Displays Inc (PDi) for EXT3 board 
- *	which is verified by Arduino M0 Pro and TI LaunchPad EK-TM4C123GXL, MSP-EXP430F5529LP.
- *  And it should be able to be compiled on Arduino/Energia IDE supported boards.
- *  You will need a level shifter 5V --> 3V if using Arduino Due or Arduino Uno to work with EXT3 board.
- *	The driving code below will update black/white colors image, delay 3 seconds, then black/white/red colors image.
- *	If you are using EPD with Aurora imaging film, you could comment out the 2nd image data.
- *  For more information about PDi EPD products and EXT3 board, please visit 
- *  https://www.pervasivedisplays.com/products/ and https://www.pervasivedisplays.com/product/epd-extension-kit-gen-3-ext3/
+ * This example code is for sub 5 inch with iTC driver
+ * including 1.54", 2.13", 2.66", 2.71", 2.87", 3.70", 4.20" and 4.37"
+ * of Aurora or Spectra EPD made by Pervasive Displays Inc (PDi) for EXT3 board 
+ * which is verified by Arduino M0 Pro and TI LaunchPad EK-TM4C123GXL, MSP-EXP430F5529LP.
+ * And it should be able to be compiled on Arduino/Energia IDE supported boards.
+ * You will need a level shifter 5V --> 3V if using Arduino Due or Arduino Uno to work with EXT3 board.
+ * The driving code below will update black/white colors image, delay 3 seconds, then black/white/red colors image.
+ * If you are using EPD with Aurora imaging film, you could comment out the 2nd image data.
+ * For more information about PDi EPD products and EXT3 board, please visit 
+ * https://www.pervasivedisplays.com/products/ and https://www.pervasivedisplays.com/product/epd-extension-kit-gen-3-ext3/
  */
 
 #include <SPI.h>
